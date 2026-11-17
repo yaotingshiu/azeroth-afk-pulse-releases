@@ -4,7 +4,7 @@
 
 # Azeroth AFK Pulse
 
-<sub>(原 WowAutoAFK)</sub>
+<sub>(原 [WowAutoAFK](https://github.com/yaotingshiu/WowAutoAFK_Releases))</sub>
 
 <br>
 
