@@ -4,12 +4,12 @@
 
 # Azeroth AFK Pulse
 
-<sub>(原 [WowAutoAFK](https://github.com/yaotingshiu/WowAutoAFK_Releases))</sub>
+<sub>(原 WowAutoAFK)</sub>
 
 <br>
 
 <img alt="Version" src="https://img.shields.io/badge/Version-1.0.0-blue">
-<img alt="Platform" src="https://img.shields.io/badge/Platform-Windows_%7C_macOS-lightgrey">
+<img alt="Platform" src="https://img.shields.io/badge/Platform-Windows_10%2B_%7C_macOS_14%2B-lightgrey">
 <img alt="Language" src="https://img.shields.io/badge/Language-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87_%7C_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87_%7C_English-00599C">
 <img alt="Programming Languages" src="https://img.shields.io/badge/Programming_Languages-Python_%7C_Lua-3776AB">
 
@@ -126,8 +126,8 @@ for U 版附帶一個專用的遊戲插件「Azeroth AFK Pulse for U」，由程
 
 ## 系統需求
 
-- **Windows**：Windows 10 或 11（64 位元）。程式需要系統管理員權限，才能對遊戲送出鍵盤與滑鼠操作。
-- **macOS**：macOS 12 或更新版本。Intel 處理器的 Mac 可直接執行，Apple 晶片的 Mac 透過 Rosetta 執行。
+- **Windows**：Windows 10（1809 以後）或 Windows 11，64 位元。不支援 32 位元的 Windows，以及 Windows 7、8。程式需要系統管理員權限，才能對遊戲送出鍵盤與滑鼠操作。
+- **macOS**：macOS 14 Sonoma 或更新版本。Intel 處理器的 Mac 可直接執行，Apple 晶片的 Mac 透過 Rosetta 執行。
 - **for U 版**：U 服（7.3.5）的遊戲用戶端。
 
 ## 下載
@@ -286,8 +286,8 @@ for U 版附带一个专用的游戏插件「Azeroth AFK Pulse for U」，由程
 
 ## 系统需求
 
-- **Windows**：Windows 10 或 11（64 比特）。程序需要管理员权限，才能对游戏送出键盘与鼠标操作。
-- **macOS**：macOS 12 或更新版本。Intel 处理器的 Mac 可直接运行，Apple 芯片的 Mac 通过 Rosetta 运行。
+- **Windows**：Windows 10（1809 以后）或 Windows 11，64 位。不支持 32 位的 Windows，以及 Windows 7、8。程序需要管理员权限，才能对游戏送出键盘与鼠标操作。
+- **macOS**：macOS 14 Sonoma 或更高版本。Intel 处理器的 Mac 可直接运行，Apple 芯片的 Mac 通过 Rosetta 运行。
 - **for U 版**：U 服（7.3.5）的游戏客户端。
 
 ## 下载
@@ -446,8 +446,8 @@ The add-on uses only the game's official add-on interface (AddOns) and never mod
 
 ## Requirements
 
-- **Windows**: Windows 10 or 11 (64-bit). The program needs administrator rights to send keyboard and mouse input to the game.
-- **macOS**: macOS 12 or later. Runs natively on Intel Macs and through Rosetta on Apple silicon Macs.
+- **Windows**: Windows 10 (version 1809 or later) or Windows 11, 64-bit. 32-bit Windows, Windows 7 and Windows 8 are not supported. The program needs administrator rights to send keyboard and mouse input to the game.
+- **macOS**: macOS 14 Sonoma or later. Runs natively on Intel Macs and through Rosetta on Apple silicon Macs.
 - **for U edition**: the U server (7.3.5) game client.
 
 ## Download
