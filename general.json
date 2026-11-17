@@ -7,13 +7,13 @@
  },
  "windows": {
   "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-Setup.exe",
-  "sha256": "cd66f9202d1bbbc8f9e2bfd199e66bd08af576afe40b6296f3ddee3dc691890e",
-  "size": 95478784
+  "sha256": "6e9542ef8fc3c763cfe27ff424ffd01eb75f96c3164592ebd7477da18df81197",
+  "size": 95515136
  },
  "mac": {
   "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-mac.zip",
-  "sha256": "0f3a82369d11ee3fecc9055d762288b145f6407f7ac52b9672029dd8127078c6",
-  "size": 102131256
+  "sha256": "07132e293fbb20e1ea7206390b6c018a8b1b7539d0957cb7345719bb7e801901",
+  "size": 102153511
  },
- "sig": "85e24dd09b2f06b7d2de7b5cc5db825434c77eefd47369af8e355c487f8502a749955afc596d33434643f53ac8e144f49c4cf04bd39267eddee1888b7dda9d0c"
+ "sig": "5a0f27e4e5348243f937dcaab69bf5e2e72ec5d6332461e37f6c359918812c5b599afaef71c794c8651091f5a7334e80a2b9899e60cb93e070382d9ecc4d580c"
 }
