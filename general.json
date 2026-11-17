@@ -1,0 +1,19 @@
+{
+ "version": "1.0.0",
+ "notes": {
+  "zh-TW": "第一個公開版本。",
+  "zh-CN": "第一个公开版本。",
+  "EN": "First public release."
+ },
+ "windows": {
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-Setup.exe",
+  "sha256": "cd66f9202d1bbbc8f9e2bfd199e66bd08af576afe40b6296f3ddee3dc691890e",
+  "size": 95478784
+ },
+ "mac": {
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-mac.zip",
+  "sha256": "0f3a82369d11ee3fecc9055d762288b145f6407f7ac52b9672029dd8127078c6",
+  "size": 102131256
+ },
+ "sig": "85e24dd09b2f06b7d2de7b5cc5db825434c77eefd47369af8e355c487f8502a749955afc596d33434643f53ac8e144f49c4cf04bd39267eddee1888b7dda9d0c"
+}
