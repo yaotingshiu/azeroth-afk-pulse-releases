@@ -1,19 +1,14 @@
 {
- "version": "1.0.0",
+ "version": "1.0.1",
  "notes": {
-  "zh-TW": "第一個公開版本。",
-  "zh-CN": "第一个公开版本。",
-  "EN": "First public release."
+  "zh-TW": "‧新增螢幕被系統關閉時的通知與喚醒。\n‧調整設定頁分類。\n‧優化斷線重連判定。\n‧優化自動重連的狀態顯示。\n‧優化角色是否在遊戲中的判定。\n‧優化定時回報內容。\n‧修復角色被退回選角畫面時未自動處理的問題。\n‧修復換角色未成功仍繼續計時的問題。\n‧修復定時回報顯示已關閉視窗的問題。",
+  "zh-CN": "‧新增屏幕被系统关闭时的通知与唤醒。\n‧调整设置页分类。\n‧优化断线重连判定。\n‧优化自动重连的状态显示。\n‧优化角色是否在游戏中的判定。\n‧优化定时回报内容。\n‧修复角色被退回选角画面时未自动处理的问题。\n‧修复换角色未成功仍继续计时的问题。\n‧修复定时回报显示已关闭窗口的问题。",
+  "EN": "‧Added: a notice and wake-up when the system turns the display off.\n‧Changed: the settings page is grouped differently.\n‧Improved: detection of lost connections and reconnecting.\n‧Improved: the reconnect shows each step it is on.\n‧Improved: telling whether the character is really in the game.\n‧Improved: the timed report.\n‧Fixed: a character sent back to the character screen was not handled automatically.\n‧Fixed: a switch that did not get into the game kept counting time.\n‧Fixed: the timed report listed closed game windows."
  },
  "windows": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-Setup.exe",
-  "sha256": "6e9542ef8fc3c763cfe27ff424ffd01eb75f96c3164592ebd7477da18df81197",
-  "size": 95515136
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.1/AzerothAFKPulse-Setup.exe",
+  "sha256": "1d6946d9b6205fa5048f5d1f1fe0e16c7825139f9394b2cf80818d6ed98552fe",
+  "size": 96572928
  },
- "mac": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-mac.zip",
-  "sha256": "07132e293fbb20e1ea7206390b6c018a8b1b7539d0957cb7345719bb7e801901",
-  "size": 102153511
- },
- "sig": "5a0f27e4e5348243f937dcaab69bf5e2e72ec5d6332461e37f6c359918812c5b599afaef71c794c8651091f5a7334e80a2b9899e60cb93e070382d9ecc4d580c"
+ "sig": "9d4ae3cacb20ad9958d1761ad99b4f3c8e861a50269bd72aa1051d035432a9e393fe83b5939799b0f41e6ce88c2862d2ec4a4cb55adad62e1ea749916b7c5601"
 }
