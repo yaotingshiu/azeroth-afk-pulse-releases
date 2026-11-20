@@ -10,5 +10,10 @@
   "sha256": "1d6946d9b6205fa5048f5d1f1fe0e16c7825139f9394b2cf80818d6ed98552fe",
   "size": 96572928
  },
- "sig": "9d4ae3cacb20ad9958d1761ad99b4f3c8e861a50269bd72aa1051d035432a9e393fe83b5939799b0f41e6ce88c2862d2ec4a4cb55adad62e1ea749916b7c5601"
+ "mac": {
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.1/AzerothAFKPulse-mac.zip",
+  "sha256": "e3486ed7507ed11e0c6e3e2b8ee51169decd0fe933fd3d69e81a4060b97c6c0e",
+  "size": 102696011
+ },
+ "sig": "06758e56b4be8c3a8bdc4be19b8696f5809569c1851bd534593e133c3e8fb49e66253a6a43c9c495f945a1e2c79c8aeb6cd8155792b0a872ee20834cd554650c"
 }
