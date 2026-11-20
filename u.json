@@ -1,19 +1,14 @@
 {
- "version": "1.0.0 U",
+ "version": "1.0.1 U",
  "notes": {
-  "zh-TW": "第一個公開版本。",
-  "zh-CN": "第一个公开版本。",
-  "EN": "First public release."
+  "zh-TW": "‧新增「稍後再問」時間設定。\n‧調整「暫停輪替」為「暫停換角色」，並新增繼續換角色按鈕。\n‧調整設定頁分類。\n‧優化斷線重連判定。\n‧優化自動重連的狀態顯示。\n‧優化角色是否在遊戲中的判定。\n‧優化螢幕被系統關閉時的處理。\n‧優化定時回報內容。\n‧優化換角色詢問，防止誤點。\n‧修復角色被退回選角畫面時未自動處理的問題。\n‧修復換角色未成功仍顯示已換到的問題。\n‧修復切換到已掛滿角色時直接被換走的問題。\n‧修復換角色時誤報遊戲視窗被縮小的問題。\n‧修復定時回報顯示已關閉視窗的問題。\n‧修復重新連線後指令送錯視窗的問題。",
+  "zh-CN": "‧新增“稍后再问”时间设置。\n‧调整“暂停轮替”为“暂停换角色”，并新增继续换角色按钮。\n‧调整设置页分类。\n‧优化断线重连判定。\n‧优化自动重连的状态显示。\n‧优化角色是否在游戏中的判定。\n‧优化屏幕被系统关闭时的处理。\n‧优化定时回报内容。\n‧优化换角色询问，防止误点。\n‧修复角色被退回选角画面时未自动处理的问题。\n‧修复换角色未成功仍显示已换到的问题。\n‧修复切换到已挂满角色时直接被换走的问题。\n‧修复换角色时误报游戏窗口被最小化的问题。\n‧修复定时回报显示已关闭窗口的问题。\n‧修复重新连线后指令送错窗口的问题。",
+  "EN": "‧Added: a setting for the \"ask later\" time.\n‧Changed: \"Pause rotation\" in the switch question is now \"Pause switching\", with a new \"Continue switching\" button.\n‧Changed: the settings page is grouped differently.\n‧Improved: detection of lost connections and reconnecting.\n‧Improved: the reconnect shows each step it is on.\n‧Improved: telling whether the character is really in the game.\n‧Improved: handling when the system turns the display off.\n‧Improved: the timed report.\n‧Improved: the switch question guards against accidental clicks.\n‧Fixed: a character sent back to the character screen was not handled automatically.\n‧Fixed: a switch that did not get into the game still said it had switched.\n‧Fixed: switching to a character already done today switched away at once.\n‧Fixed: switching wrongly reported the game window as minimized.\n‧Fixed: the timed report listed closed game windows.\n‧Fixed: after a reconnect some commands went to the old game window."
  },
  "windows": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-for-U-Setup.exe",
-  "sha256": "1a268e15fdf8111a57675e547a002a9c225d7a968332d66000aaed71b90b1709",
-  "size": 101208064
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.1/AzerothAFKPulse-for-U-Setup.exe",
+  "sha256": "b4b6d54e198b2d21af7ac962f0b86a5e262807b2a16fe173bbb029d963faa5d3",
+  "size": 102272000
  },
- "mac": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.0/AzerothAFKPulse-for-U-mac.zip",
-  "sha256": "04f050d5cfbc25155776be4fddae5558e70833fce390bab5193ed681de7fc306",
-  "size": 105354745
- },
- "sig": "20d8da78b874e9130b170fe0eaffb4b02e1050658bfb6a09694ca6dc6db3eeba149f59944bc130ebac6ea4fd33db6616ac64ee39e61f09c4175f56841c605e05"
+ "sig": "5c4b54439a49c2e064fcda90519086408897118232226cf308868347108d941cfe10dda1ba4969947f28a413d09b00ac9ea38bc89c3dceeb13e97f7bda533a07"
 }
