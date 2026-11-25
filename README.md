@@ -8,7 +8,7 @@
 
 <br>
 
-<img alt="Version" src="https://img.shields.io/badge/Version-1.0.1-blue">
+<img alt="Version" src="https://img.shields.io/badge/Version-1.1.0-blue">
 <img alt="Platform" src="https://img.shields.io/badge/Platform-Windows_10%2B_%7C_macOS_14%2B-lightgrey">
 <img alt="Language" src="https://img.shields.io/badge/Language-%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87_%7C_%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87_%7C_English-00599C">
 <img alt="Programming Languages" src="https://img.shields.io/badge/Programming_Languages-Python_%7C_Lua-3776AB">
