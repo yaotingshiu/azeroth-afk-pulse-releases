@@ -1,0 +1,14 @@
+{
+ "version": "1.1.0",
+ "notes": {
+  "zh-TW": "‧新增打木樁功能。\n‧新增排程功能。\n‧優化新版本時的提醒。\n‧優化掛機中可直接調整掛機頻率與方式。\n‧微幅調整程式版面與優化介面文字顯示，資訊顯示更完整。\n‧修復掛機中操作遊戲的判斷。\n‧修復自動登入與程式輸入指令，避免指令之間衝突。\n‧修復 Mac 版無法檢查更新、重新啟動後沒有自動開啟的問題。\n‧修復自動重連期間仍會換角色、可能多開遊戲視窗等多項問題。\n‧優化程式效能。",
+  "zh-CN": "‧新增打木桩功能。\n‧新增排程功能。\n‧优化新版本时的提醒。\n‧优化挂机中可直接调整挂机频率与方式。\n‧微幅调整程序版面与优化界面文字显示，信息显示更完整。\n‧修复挂机中操作游戏的判断。\n‧修复自动登录与程序输入指令，避免指令之间冲突。\n‧修复 Mac 版无法检查更新、重新启动后没有自动打开的问题。\n‧修复自动重连期间仍会换角色、可能多开游戏窗口等多项问题。\n‧优化程序性能。",
+  "EN": "‧Added: training dummy.\n‧Added: schedules.\n‧Improved: the new version reminder.\n‧Improved: AFK frequency and action can be changed while AFK is running.\n‧Small layout changes and clearer interface texts, so information shows in full.\n‧Fixed: telling whether you are playing the game during AFK.\n‧Fixed: auto login and the program's typed commands no longer get in each other's way.\n‧Fixed: the Mac version could not check for updates and did not open again after a restart.\n‧Fixed: characters still switched during a reconnect, extra game windows could be opened, and other issues.\n‧Improved: program performance."
+ },
+ "mac": {
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.1.0/AzerothAFKPulse-mac.zip",
+  "sha256": "bcfa0ffd1701daf9fb2ede51ebf9d028892c1ae372aaba636cb87b529ef6dee4",
+  "size": 103324142
+ },
+ "sig": "bc68d0aa9fa78b61ea0cc8a0274a7826172e69cbc791ae4bfe30e14b63cd1a3d220b5ab4bfbf298c4b34dbef3704825eafbd67410aa5c703176caf1eb2d9a104"
+}
