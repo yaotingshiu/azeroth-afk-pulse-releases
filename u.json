@@ -1,19 +1,14 @@
 {
- "version": "1.0.1 U",
+ "version": "1.1.0 U",
  "notes": {
-  "zh-TW": "‧新增「稍後再問」時間設定。\n‧調整「暫停輪替」為「暫停換角色」，並新增繼續換角色按鈕。\n‧調整設定頁分類。\n‧優化斷線重連判定。\n‧優化自動重連的狀態顯示。\n‧優化角色是否在遊戲中的判定。\n‧優化螢幕被系統關閉時的處理。\n‧優化定時回報內容。\n‧優化換角色詢問，防止誤點。\n‧修復角色被退回選角畫面時未自動處理的問題。\n‧修復換角色未成功仍顯示已換到的問題。\n‧修復切換到已掛滿角色時直接被換走的問題。\n‧修復換角色時誤報遊戲視窗被縮小的問題。\n‧修復定時回報顯示已關閉視窗的問題。\n‧修復重新連線後指令送錯視窗的問題。",
-  "zh-CN": "‧新增“稍后再问”时间设置。\n‧调整“暂停轮替”为“暂停换角色”，并新增继续换角色按钮。\n‧调整设置页分类。\n‧优化断线重连判定。\n‧优化自动重连的状态显示。\n‧优化角色是否在游戏中的判定。\n‧优化屏幕被系统关闭时的处理。\n‧优化定时回报内容。\n‧优化换角色询问，防止误点。\n‧修复角色被退回选角画面时未自动处理的问题。\n‧修复换角色未成功仍显示已换到的问题。\n‧修复切换到已挂满角色时直接被换走的问题。\n‧修复换角色时误报游戏窗口被最小化的问题。\n‧修复定时回报显示已关闭窗口的问题。\n‧修复重新连线后指令送错窗口的问题。",
-  "EN": "‧Added: a setting for the \"ask later\" time.\n‧Changed: \"Pause rotation\" in the switch question is now \"Pause switching\", with a new \"Continue switching\" button.\n‧Changed: the settings page is grouped differently.\n‧Improved: detection of lost connections and reconnecting.\n‧Improved: the reconnect shows each step it is on.\n‧Improved: telling whether the character is really in the game.\n‧Improved: handling when the system turns the display off.\n‧Improved: the timed report.\n‧Improved: the switch question guards against accidental clicks.\n‧Fixed: a character sent back to the character screen was not handled automatically.\n‧Fixed: a switch that did not get into the game still said it had switched.\n‧Fixed: switching to a character already done today switched away at once.\n‧Fixed: switching wrongly reported the game window as minimized.\n‧Fixed: the timed report listed closed game windows.\n‧Fixed: after a reconnect some commands went to the old game window."
+  "zh-TW": "‧新增插件自動換上釣魚神器，以及插件小地圖按鈕。\n‧新增打木樁功能。\n‧新增排程功能。\n‧優化新版本時的提醒。\n‧優化掛機中可直接調整掛機頻率與方式。\n‧新增U模式標籤，便於分辨是否正在使用U模式。\n‧微幅調整程式版面與優化介面文字顯示，資訊顯示更完整。\n‧調整U服角色輪替時間設定邏輯：設定分鐘數的角色，每次輪到時從進入遊戲起掛那麼久，不管今天已經掛了多少。\n‧優化跨日判斷與插件詢問時機，換角色更準確。\n‧修復掛機中操作遊戲的判斷。\n‧修復自動登入與程式輸入指令，避免指令之間衝突。\n‧修復 Mac 版無法檢查更新、重新啟動後沒有自動開啟的問題。\n‧修復自動重連期間仍會換角色、可能多開遊戲視窗等多項問題。\n‧優化程式效能。",
+  "zh-CN": "‧新增插件自动换上钓鱼神器，以及插件小地图按钮。\n‧新增打木桩功能。\n‧新增排程功能。\n‧优化新版本时的提醒。\n‧优化挂机中可直接调整挂机频率与方式。\n‧新增U模式标签，便于分辨是否正在使用U模式。\n‧微幅调整程序版面与优化界面文字显示，信息显示更完整。\n‧调整U服角色轮替时间设置逻辑：设置分钟数的角色，每次轮到时从进入游戏起挂那么久，不管今天已经挂了多少。\n‧优化跨日判断与插件询问时机，换角色更准确。\n‧修复挂机中操作游戏的判断。\n‧修复自动登录与程序输入指令，避免指令之间冲突。\n‧修复 Mac 版无法检查更新、重新启动后没有自动打开的问题。\n‧修复自动重连期间仍会换角色、可能多开游戏窗口等多项问题。\n‧优化程序性能。",
+  "EN": "‧Added: the add-on equips the fishing artifact by itself, and an add-on minimap button.\n‧Added: training dummy.\n‧Added: schedules.\n‧Improved: the new version reminder.\n‧Improved: AFK frequency and action can be changed while AFK is running.\n‧Added: a U mode tag, to see at a glance whether U mode is in use.\n‧Small layout changes and clearer interface texts, so information shows in full.\n‧Changed: UWoW character rotation times - a character set to a number of minutes stays that long from entering the game each turn, whatever it already had today.\n‧Improved: the new day check and when the add-on asks, so characters switch more accurately.\n‧Fixed: telling whether you are playing the game during AFK.\n‧Fixed: auto login and the program's typed commands no longer get in each other's way.\n‧Fixed: the Mac version could not check for updates and did not open again after a restart.\n‧Fixed: characters still switched during a reconnect, extra game windows could be opened, and other issues.\n‧Improved: program performance."
  },
  "windows": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.1/AzerothAFKPulse-for-U-Setup.exe",
-  "sha256": "b4b6d54e198b2d21af7ac962f0b86a5e262807b2a16fe173bbb029d963faa5d3",
-  "size": 102272000
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.1.0/AzerothAFKPulse-for-U-Setup.exe",
+  "sha256": "9f2dcf11e5fcb1d6127904be6c9690d453ab64b0375e287ffaafa5736638dde5",
+  "size": 103167488
  },
- "mac": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.1/AzerothAFKPulse-for-U-mac.zip",
-  "sha256": "975f46bfc3a88de7f967812c8fe21f85b3bb51cbc8f6925c9cec048430207985",
-  "size": 105913293
- },
- "sig": "f27a6e8adab7b0abfa8abe67e6ff8619e8cbd61542f048055b3a024a5958d4535297e995ad6dd9d8ceb6dfd5f14108874c8581f73027b62c9122106b5bbcdd07"
+ "sig": "99a73173f275c845df98e53813431bcba819b6818ede5f13558a7c1671d4bec7b394c8b1970fda5f7339bbd0ef38b82650992286c033ad3fa49ceff95b2ec305"
 }
