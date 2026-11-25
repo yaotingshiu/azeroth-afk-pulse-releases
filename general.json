@@ -1,19 +1,14 @@
 {
- "version": "1.0.1",
+ "version": "1.1.0",
  "notes": {
-  "zh-TW": "‧新增螢幕被系統關閉時的通知與喚醒。\n‧調整設定頁分類。\n‧優化斷線重連判定。\n‧優化自動重連的狀態顯示。\n‧優化角色是否在遊戲中的判定。\n‧優化定時回報內容。\n‧修復角色被退回選角畫面時未自動處理的問題。\n‧修復換角色未成功仍繼續計時的問題。\n‧修復定時回報顯示已關閉視窗的問題。",
-  "zh-CN": "‧新增屏幕被系统关闭时的通知与唤醒。\n‧调整设置页分类。\n‧优化断线重连判定。\n‧优化自动重连的状态显示。\n‧优化角色是否在游戏中的判定。\n‧优化定时回报内容。\n‧修复角色被退回选角画面时未自动处理的问题。\n‧修复换角色未成功仍继续计时的问题。\n‧修复定时回报显示已关闭窗口的问题。",
-  "EN": "‧Added: a notice and wake-up when the system turns the display off.\n‧Changed: the settings page is grouped differently.\n‧Improved: detection of lost connections and reconnecting.\n‧Improved: the reconnect shows each step it is on.\n‧Improved: telling whether the character is really in the game.\n‧Improved: the timed report.\n‧Fixed: a character sent back to the character screen was not handled automatically.\n‧Fixed: a switch that did not get into the game kept counting time.\n‧Fixed: the timed report listed closed game windows."
+  "zh-TW": "‧新增打木樁功能。\n‧新增排程功能。\n‧優化新版本時的提醒。\n‧優化掛機中可直接調整掛機頻率與方式。\n‧微幅調整程式版面與優化介面文字顯示，資訊顯示更完整。\n‧修復掛機中操作遊戲的判斷。\n‧修復自動登入與程式輸入指令，避免指令之間衝突。\n‧修復 Mac 版無法檢查更新、重新啟動後沒有自動開啟的問題。\n‧修復自動重連期間仍會換角色、可能多開遊戲視窗等多項問題。\n‧優化程式效能。",
+  "zh-CN": "‧新增打木桩功能。\n‧新增排程功能。\n‧优化新版本时的提醒。\n‧优化挂机中可直接调整挂机频率与方式。\n‧微幅调整程序版面与优化界面文字显示，信息显示更完整。\n‧修复挂机中操作游戏的判断。\n‧修复自动登录与程序输入指令，避免指令之间冲突。\n‧修复 Mac 版无法检查更新、重新启动后没有自动打开的问题。\n‧修复自动重连期间仍会换角色、可能多开游戏窗口等多项问题。\n‧优化程序性能。",
+  "EN": "‧Added: training dummy.\n‧Added: schedules.\n‧Improved: the new version reminder.\n‧Improved: AFK frequency and action can be changed while AFK is running.\n‧Small layout changes and clearer interface texts, so information shows in full.\n‧Fixed: telling whether you are playing the game during AFK.\n‧Fixed: auto login and the program's typed commands no longer get in each other's way.\n‧Fixed: the Mac version could not check for updates and did not open again after a restart.\n‧Fixed: characters still switched during a reconnect, extra game windows could be opened, and other issues.\n‧Improved: program performance."
  },
  "windows": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.1/AzerothAFKPulse-Setup.exe",
-  "sha256": "1d6946d9b6205fa5048f5d1f1fe0e16c7825139f9394b2cf80818d6ed98552fe",
-  "size": 96572928
+  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.1.0/AzerothAFKPulse-Setup.exe",
+  "sha256": "3464f281d276d85212efa1c214d86284dbbf309a73fa158d85d83a70b029c94e",
+  "size": 97295360
  },
- "mac": {
-  "url": "https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases/download/v1.0.1/AzerothAFKPulse-mac.zip",
-  "sha256": "e3486ed7507ed11e0c6e3e2b8ee51169decd0fe933fd3d69e81a4060b97c6c0e",
-  "size": 102696011
- },
- "sig": "06758e56b4be8c3a8bdc4be19b8696f5809569c1851bd534593e133c3e8fb49e66253a6a43c9c495f945a1e2c79c8aeb6cd8155792b0a872ee20834cd554650c"
+ "sig": "ad478f4ea5a5efb95bc139ca56dde6ebb5d5c4fe4ab54c57a1ee124668324a8ab377ee0c1ca878035c2a08169a9d77b9c86286f6980e139aad575dd2cbf64b03"
 }
