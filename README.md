@@ -27,6 +27,10 @@
 > 不是 U 服（7.3.5）玩家請斟酌下載。for U 版本專為 U 服設計，不保證可在所有 7.3.5 版本上運行。<br>
 > If you do not play on the U server (7.3.5), please consider carefully before downloading the for U edition.
 
+> **1.0.1（含）以前的版本可能無法正常收到更新通知，請到本頁重新下載並安裝最新版本；重新安裝不會清除你的設定與紀錄。**<br>
+> 1.0.1 及以前的版本可能无法正常收到更新通知，请到本页重新下载并安装最新版本；重新安装不会清除你的设置与记录。<br>
+> Versions 1.0.1 and earlier may not receive the update notice. Please download and install the latest version from this page; reinstalling keeps your settings and records.
+
 所有版本請見 [Releases](https://github.com/yaotingshiu/azeroth-afk-pulse-releases/releases) / All versions are under Releases.
 
 <br>
@@ -98,9 +102,11 @@ for U 版會另外安裝一個遊戲插件，使用的是遊戲官方開放的�
 - **自動掛機**：提供循環、定時與角色輪替三種方式，每個遊戲視窗各自設定，可在背景執行。
 - **角色輪替掛機**：每個遊戲視窗可依清單輪流掛不同角色；同一個視窗內輪替的是同一個帳號、同一個伺服器的角色。多個視窗可以同時各自輪替。
 - **自動釣魚**：依你截取的浮標圖片自動拋竿與收竿。
+- **打木樁**：讓一個或多個遊戲視窗照順序自動按技能鍵，可自訂按鍵順序、次數與等待秒數，並設定結束條件；掛機中的視窗也能打木樁，打完繼續掛機。
+- **排程**：到了設定的時間自動開啟遊戲、登入並開始掛機或打木樁，可每週重複或只執行一次。
 - **手機通知**：斷線、恢復連線、換角色、任務開始與結束等狀況，即時推送到手機。
 - **懸浮視窗**：不開啟主視窗也能查看與控制目前的任務。
-- **for U 版專屬**：搭配專用遊戲插件，依伺服器記錄的掛機時間換角色，達標後自動領取獎勵。
+- **for U 版專屬**：搭配專用遊戲插件，依伺服器記錄的掛機時間換角色，達標後自動領取獎勵；U 模式的視窗、帳號與主程式會標示「U」，一眼就能分辨插件是否已連上。
 - 介面支援繁體中文、简体中文與 English，並提供淺色與深色主題。
 
 ### 釣魚的限制
@@ -116,10 +122,11 @@ for U 版附帶一個專用的遊戲插件「Azeroth AFK Pulse for U」，由程
 
 - **今日掛機進度**：在遊戲畫面上以狀態條顯示伺服器記錄的今日掛機時間、距離達標還有多久，以及獎勵是否已領取。狀態條可以拖動、縮放與鎖定。
 - **自動領取獎勵**：掛機時間達標後自動領取獎勵，可選擇不顯示獎勵視窗、在背景領取。
-- **依伺服器時間換角色**：每個角色可以設定自己的目標分鐘數（預設掛滿 120 分），達標後由程式自動換下一個角色。如果時間到時你正在打字、操作角色，或在副本、隊伍中，插件會先詢問你要現在換還是稍後再換，不會直接打斷你。
+- **依伺服器時間換角色**：每個角色可以設定自己的目標分鐘數（預設掛滿 120 分），達標後由程式自動換下一個角色。如果時間到時你正在打字、操作角色，或在副本、隊伍中，插件會先詢問你要現在換還是稍後再換，不會直接打斷你；伺服器換日時你正在玩，也會先詢問。
 - **遊戲內管理輪替清單**：在遊戲內就能查看與調整輪替順序（拖動排序）、加入或移除角色、暫停輪替，或立即換下一個角色；修改約 2 秒就會同步到程式。
 - **自動功能**（全部預設關閉，勾選後立即生效）：開商人時自動修裝、自動賣灰色物品；競技場／戰場結束自動離開；自動確認隨機隊伍職責、自動回應準備確認；自動拒絕決鬥、自動接受復活、自動跳過過場動畫。
-- **釣魚功能**：自動拾取，以及手上拿著釣竿時快速按兩下右鍵就能拋竿。
+- **釣魚功能**：自動拾取、釣魚時自動換上釣魚神器（停止後換回原本的武器），以及手上拿著釣竿時快速按兩下右鍵就能拋竿。
+- **小地圖按鈕**：從小地圖按鈕，或遊戲的「介面 → 插件」開啟插件設定。
 - **聊天指令**：`/aap` 開關設定、`/aap hud` 開關狀態條、`/aap pause` 暫停／繼續輪替、`/aap next` 立即換下一個角色。
 
 插件只使用遊戲官方開放的插件介面（AddOns），不修改任何遊戲檔案；解除安裝程式時可以選擇一併移除。
@@ -163,6 +170,8 @@ Releases 中的 `…-mac.zip` 是程式自動更新用的檔案，不需要手�
 ## 更新
 
 程式會自動檢查新版本，有新版時會跳出通知，在程式內按一下就能更新，設定與紀錄都會保留。
+
+> 1.0.1（含）以前的版本可能無法正常收到更新通知，請到本頁重新下載並安裝最新版本；重新安裝不會清除你的設定與紀錄。
 
 - 也可以到「功能設定 → 更新」手動檢查。
 - 更新檔都經過數位簽章驗證，驗證不通過的檔案不會被安裝。
@@ -258,9 +267,11 @@ for U 版会另外安装一个游戏插件，使用的是游戏官方开放的�
 - **自动挂机**：提供循环、定时与角色轮替三种方式，每个游戏窗口各自设置，可在后台运行。
 - **角色轮替挂机**：每个游戏窗口可依清单轮流挂不同角色；同一个窗口内轮替的是同一个账号、同一个服务器的角色。多个窗口可以同时各自轮替。
 - **自动钓鱼**：依你截取的浮标图片自动抛竿与收竿。
+- **打木桩**：让一个或多个游戏窗口按顺序自动按技能键，可自定义按键顺序、次数与等待秒数，并设置结束条件；挂机中的窗口也能打木桩，打完继续挂机。
+- **排程**：到了设置的时间自动打开游戏、登录并开始挂机或打木桩，可每周重复或只执行一次。
 - **手机通知**：断线、恢复连接、换角色、任务开始与结束等状况，即时推送到手机。
 - **悬浮窗口**：不打开主窗口也能查看与控制目前的任务。
-- **for U 版专属**：搭配专用游戏插件，依服务器记录的挂机时间换角色，达标后自动领取奖励。
+- **for U 版专属**：搭配专用游戏插件，依服务器记录的挂机时间换角色，达标后自动领取奖励；U 模式的窗口、账号与主程序会标示「U」，一眼就能分辨插件是否已连上。
 - 界面支持繁体中文、简体中文与 English，并提供浅色与深色主题。
 
 ### 钓鱼的限制
@@ -276,10 +287,11 @@ for U 版附带一个专用的游戏插件「Azeroth AFK Pulse for U」，由程
 
 - **今日挂机进度**：在游戏画面上以状态条显示服务器记录的今日挂机时间、距离达标还有多久，以及奖励是否已领取。状态条可以拖动、缩放与锁定。
 - **自动领取奖励**：挂机时间达标后自动领取奖励，可选择不显示奖励窗口、在后台领取。
-- **依服务器时间换角色**：每个角色可以设置自己的目标分钟数（默认挂满 120 分），达标后由程序自动换下一个角色。如果时间到时你正在打字、操作角色，或在副本、队伍中，插件会先询问你要现在换还是稍后再换，不会直接打断你。
+- **依服务器时间换角色**：每个角色可以设置自己的目标分钟数（默认挂满 120 分），达标后由程序自动换下一个角色。如果时间到时你正在打字、操作角色，或在副本、队伍中，插件会先询问你要现在换还是稍后再换，不会直接打断你；服务器换日时你正在玩，也会先询问。
 - **游戏内管理轮替清单**：在游戏内就能查看与调整轮替顺序（拖动排序）、加入或移除角色、暂停轮替，或立即换下一个角色；修改约 2 秒就会同步到程序。
 - **自动功能**（全部默认关闭，勾选后立即生效）：开商人时自动修装、自动卖灰色物品；竞技场／战场结束自动离开；自动确认随机队伍职责、自动回应准备确认；自动拒绝决斗、自动接受复活、自动跳过过场动画。
-- **钓鱼功能**：自动拾取，以及手上拿着钓竿时快速按两下右键就能抛竿。
+- **钓鱼功能**：自动拾取、钓鱼时自动换上钓鱼神器（停止后换回原本的武器），以及手上拿着钓竿时快速按两下右键就能抛竿。
+- **小地图按钮**：从小地图按钮，或游戏的「界面 → 插件」打开插件设置。
 - **聊天指令**：`/aap` 开关设置、`/aap hud` 开关状态条、`/aap pause` 暂停／继续轮替、`/aap next` 立即换下一个角色。
 
 插件只使用游戏官方开放的插件接口（AddOns），不修改任何游戏文件；卸载程序时可以选择一并移除。
@@ -323,6 +335,8 @@ Releases 中的 `…-mac.zip` 是程序自动更新用的文件，不需要手�
 ## 更新
 
 程序会自动检查新版本，有新版时会跳出通知，在程序内按一下就能更新，设置与记录都会保留。
+
+> 1.0.1 及以前的版本可能无法正常收到更新通知，请到本页重新下载并安装最新版本；重新安装不会清除你的设置与记录。
 
 - 也可以到「功能设置 → 更新」手动检查。
 - 更新文件都经过数字签名验证，验证不通过的文件不会被安装。
@@ -418,9 +432,11 @@ Setting the game's display mode to **"Windowed (Fullscreen)"** gives the most re
 - **AFK**: loop, timed and character rotation modes, set per game window and able to run in the background.
 - **Character rotation**: each game window can rotate through a list of characters; the characters in one window share the same account and the same server. Several windows can rotate at the same time.
 - **Fishing**: casts and reels in automatically, based on a picture of the bobber you capture.
+- **Training dummy**: one or more game windows press your skill keys in order, with your own key order, presses and waits, and an end condition; a window that is AFK can join too and goes back to AFK afterwards.
+- **Schedules**: at the set time the game is started, logged in, and AFK or the training dummy begins; weekly or just once.
 - **Phone alerts**: disconnects, reconnects, character switches, tasks starting and ending, sent to your phone as they happen.
 - **Floating window**: see and control the current task without opening the main window.
-- **for U edition only**: works with its own game add-on to switch characters by the AFK time the server records, and claims the reward automatically.
+- **for U edition only**: works with its own game add-on to switch characters by the AFK time the server records, and claims the reward automatically; U mode windows, accounts and games carry a "U" tag that also shows whether the add-on is linked.
 - Interface in Traditional Chinese, Simplified Chinese and English, with light and dark themes.
 
 ### Fishing limits
@@ -436,10 +452,11 @@ The for U edition comes with its own game add-on, "Azeroth AFK Pulse for U", whi
 
 - **Today's AFK progress**: a status bar in the game shows today's AFK time as recorded by the server, how long until the target, and whether the reward has been claimed. The bar can be moved, resized and locked.
 - **Automatic reward**: once the AFK time reaches the target, the reward is claimed automatically, optionally in the background without showing the reward window.
-- **Switching by the server's AFK time**: each character can have its own target in minutes (full 120 minutes by default); when it is reached, the program switches to the next character. If you are typing, moving your character, or in an instance or a group at that moment, the add-on first asks whether to switch now or later instead of interrupting you.
+- **Switching by the server's AFK time**: each character can have its own target in minutes (full 120 minutes by default); when it is reached, the program switches to the next character. If you are typing, moving your character, or in an instance or a group at that moment, the add-on first asks whether to switch now or later instead of interrupting you; the same when the server starts its new day while you are playing.
 - **Manage the rotation in the game**: view and change the rotation order (drag to reorder), add or remove characters, pause the rotation or switch to the next character right away, all inside the game; changes reach the program within about 2 seconds.
 - **Automation** (all off by default, takes effect as soon as it is ticked): repair and sell grey items at merchants; leave finished arenas and battlegrounds; accept dungeon role checks and answer ready checks; decline duels, accept resurrections and skip cinematics.
-- **Fishing help**: auto loot, and a quick double right-click casts while a fishing pole is in hand.
+- **Fishing help**: auto loot, the fishing artifact equipped while fishing (your weapon back afterwards), and a quick double right-click casts while a fishing pole is in hand.
+- **Minimap button**: opens the add-on settings, as does the game's Interface > AddOns.
 - **Chat commands**: `/aap` opens the settings, `/aap hud` shows or hides the status bar, `/aap pause` pauses or resumes the rotation, `/aap next` switches to the next character right away.
 
 The add-on uses only the game's official add-on interface (AddOns) and never modifies any game file; it can be removed together with the program when uninstalling.
@@ -483,6 +500,8 @@ The `…-mac.zip` files in Releases are used by the program's automatic updates;
 ## Updates
 
 The program checks for new versions itself and shows a notice when one is available; one click in the program updates it, and your settings and records are kept.
+
+> Versions 1.0.1 and earlier may not receive the update notice. Please download and install the latest version from this page; reinstalling keeps your settings and records.
 
 - You can also check by hand in Settings > Updates.
 - Every update is checked against a digital signature; a file that fails the check is never installed.
